@@ -389,3 +389,21 @@ li {
     text-align: center;
   }
 }
+
+/* Medium phones */
+@media (max-width: 360px) {
+  .join {
+    width: 320px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 320px) {
+  .header-btn {
+    padding: 0.7rem 2rem;
+  }
+
+  .join {
+    width: 250px;
+  }
+}
